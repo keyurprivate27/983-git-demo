@@ -1,0 +1,110 @@
+    1  git clone https://github.com/in28minutes/spring-microservices-v3.git
+    2  vi main.tf
+    3  git status
+    4  git init
+    5  git status
+    6  clear
+    7  git status
+    8  git add main.tf 
+    9  git status
+   10  vi main.tf 
+   11  clear
+   12  git status
+   13  git restore main.tf 
+   14  git status
+   15  git commit -m"initial checkin for terraform code"
+   16  git status
+   17  git status
+   18  git add .
+   19  git status
+   20  git log
+   21  git log --oneline
+   22  git status
+   23  git commit -m"updated main.tf with some more changes"
+   24  git log --oneline
+   25  clear
+   26  git remote -v
+   27  git remote add origin https://github.com/keyurprivate27/983-git-demo.git
+   28  git remote -v
+   29  git push -u origin master
+   30  clear
+   31  git remote add origin git@github.com:keyurprivate27/983-git-demo.git
+   32  git remote add origin-ssh git@github.com:keyurprivate27/983-git-demo.git
+   33  git remote -v
+   34  git push -u origin-ssh master
+   35  clear
+   36  git log --oneline
+   37  clear
+   38  clear
+   39  git remote -v
+   40  git status
+   41  git pull
+   42  ls
+   43  git log --oneline
+   44  clear
+   45  git remote -v
+   46  git status
+   47  ls
+   48  git log --oneline
+   49  clear
+   50  git status
+   51  git pull
+   52  ls
+   53  git branch
+   54  git checkout -b testing-branch
+   55  ls
+   56  git status
+   57  vi main.tf 
+   58  git status
+   59  git add main.tf 
+   60  git status
+   61  git commit -m"updated main.tf"
+   62  git log --oneline
+   63  git checkout master
+   64  ls
+   65  cat main.tf 
+   66  git branch
+   67  git merge testing-branch 
+   68  cat main.tf 
+   69  git log --oneline
+   70  git push origin master
+   71  git push origin-ssh master
+   72  clear
+   73  git branch
+   74  git remove testing-branch
+   75  git delete testing-branch
+   76  git branch -d testing-branch
+   77  git branch
+   78  clear
+   79  git status
+   80  ls
+   81  git checkout -b java-feature
+   82  vi Test.java
+   83  ls -l
+   84  javac Test.java 
+   85  sl
+   86  ls
+   87  git status
+   88  java Test
+   89  git add Test.java 
+   90  git status
+   91  git commit -m"Added simple java code"
+   92  git status
+   93  git push origin-ssh java-feature 
+   94  git status
+   95  git branch
+   96  git branch -r
+   97  git fetch
+   98  git branch -r
+   99  git branch -d java-feature 
+  100  git checkout master
+  101  git branch -d java-feature 
+  102  ls
+  103  git status
+  104  rm Test.class 
+  105  git status
+  106  git branch -d java-feature 
+  107  git pull
+  108  ls
+  109  history
+  110  history > 20250726-cmd-1.txt
